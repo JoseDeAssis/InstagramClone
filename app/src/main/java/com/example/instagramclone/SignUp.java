@@ -55,8 +55,8 @@ public class SignUp extends AppCompatActivity implements TextWatcher, View.OnCli
         });
 
         if(ParseUser.getCurrentUser() != null) {
-            ParseUser.getCurrentUser().logOut();
-//            transactionToSocialMediaActivity();
+//            ParseUser.getCurrentUser().logOut();
+            transactionToSocialMediaActivity();
         }
 
     }
