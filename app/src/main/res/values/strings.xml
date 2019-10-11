@@ -22,6 +22,10 @@
     <string name="loading">"Loading..."</string>
     <string name="description">"Enter a description"</string>
     <string name="share">"Share"</string>
+    <string name="post_image">"Post Image"</string>
+    <string name="logout">"Logout"</string>
+    <string name="search_label">"Search"</string>
+    <string name="help_label">"Help"</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

@@ -128,5 +128,6 @@ public class SignUp extends AppCompatActivity implements TextWatcher, View.OnCli
     private void transactionToSocialMediaActivity() {
         Intent socialMediaActivity = new Intent(SignUp.this, SocialMediaActivity.class);
         startActivity(socialMediaActivity);
+        finish();
     }
 }

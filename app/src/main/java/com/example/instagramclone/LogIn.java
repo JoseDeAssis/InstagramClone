@@ -120,5 +120,7 @@ public class LogIn extends AppCompatActivity implements TextWatcher, View.OnClic
     private void transactionToSocialMediaActivity() {
         Intent socialMediaActivity = new Intent(LogIn.this, SocialMediaActivity.class);
         startActivity(socialMediaActivity);
+
+        finish();
     }
 }
